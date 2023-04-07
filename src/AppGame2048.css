@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .game-board {
+    width: 270px;
+    height: 280px;
+    background-color: gray;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: stretch; */
+    /* padding: 4px; */
+
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-gap: 6px;
+    padding: 3px;
+    height: 70px;
+  }
+
+    
+  .row2 {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-gap: 6px;
+    padding: 3px;
+    height: 70px;
+  }
+
+  .rowChess {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-gap: 6px;
+    padding: 3px;
+    height: 70px;
+  }
+
+  .cell.light {
+    background-color: #dedede;
+  }
+  .cell.dark {
+    background-color: #6c6c6c;
+  }
+  
+  .cell {
+    /* padding: 10px; */
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cdc1b4;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  .cell-2 {
+    /* background-color: orange; */
+    background-color: #eee4da;
+  }
+  
+  .cell-4 {
+    /* background-color: rgb(39, 207, 207); */
+    background-color: #ede0c8;
+  }
+  
+  .cell-8 {
+    background-color: #f2b179;
+  }
+  
+  .cell-16 {
+    background-color: #f59563;
+  }
+  
+  .cell-32 {
+    background-color: #f67c5f;
+  }
+  
+  .cell-64 {
+    background-color: #f65e3b;
+  }
+  
+  .cell-128 {
+    background-color: #edcf72;
+  }
+  
+  .cell-256 {
+    background-color: #edcc61;
+  }
+  
+  .cell-512 {
+    background-color: #edc850;
+  }
+  
+  .cell-1024 {
+    background-color: #edc53f;
+  }
+  
+  .cell-2048 {
+    background-color: aquamarine;
+  }
